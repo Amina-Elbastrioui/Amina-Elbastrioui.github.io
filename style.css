@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-image: url(images/7685299header.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+}
+.img_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 180px;
+}
+.img_nav nav a{
+    padding-left:30px ;
+    text-decoration: none;
+    color: white;
+
+}
+.img_nav nav a:hover{
+    color: #5af1a4;
+}
+.div_img div h3{
+    color:#5af1a4 ;
+}
+.div_img div h1{
+    color: white;
+    width: 500px;
+}
+.div_img div p{
+    color: white;
+    width: 470px;
+}
+.div_img div input{
+    padding: 10px 16px;
+    border-radius: 50px;
+    border: none;
+    background-color: #5af1a4;
+}
+.div_img{
+    display:flex ;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 70px;
+    padding-top:70px ;
+}
+main{
+    width: 70%;
+    margin: auto;
+}
+.sec1 p{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    color: gray;
+}
+.sec1 h1{
+    padding-top: 50px;
+    text-align: center;
+}
+.sec2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec2 div{
+    width: 330px;
+    text-align: center;
+}
+.sec2 div p{
+    color: gray;
+}
+.sec3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:70px 70px;
+}
+.sec3 div p{
+    width: 433px;
+    padding-bottom: 15px;
+}
+.sec3 div input{
+    padding: 16px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #5af1a4;
+}
+.sec4{
+    padding-top:45px ;
+    background-color: #0f2344;
+    color: white;
+    text-align: center;
+}
+.sec4 p{
+    width: 1000px;
+    margin: auto;
+}
+.sec5{
+    background-color: #0f2344;
+}
+.sec5 .sec5_div{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.sec5 .sec5_div div{
+    background-color: white;
+    width: 310px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.sec5_div_bottom{
+    padding-bottom: 70px;
+}
+.sec6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f6f7fb;
+}
+.sec6 div .p1{
+    font-size: 25px;
+}
+.sec6 div .p2{
+    color: grey;
+}
+.sec7{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sec7 p{
+    width: 835px;
+    margin: auto;
+}
+.sec8{
+    display: flex;
+    justify-content: space-around;
+}
+.sec8 div{
+    text-align: center;
+    width: 240px;
+}
+.sec9 div h1{
+    text-align: center;
+    
+}
+.sec9{
+    margin-top: 80px;
+    background-color: #f6f7fb;
+}
+table{
+    margin: auto;
+}
+table tr td{
+    padding:8px 150px;
+}
+table tr td input{
+    width: 530px;
+    padding: 5px 0;
+    border-color: 1px solid rgb(161, 155, 155);
+}
+table tr td .button{
+   padding: 12px 10px;
+   width: 90px;
+   border-radius: 15px;
+   border: none;
+   background-color: #5af1a4;
+}
+table tr td .but{
+    width: 80px;margin-bottom: 30px;
+}
+footer{
+    background-color: #0f2344;
+    margin: auto;
+    width: 80%;
+}
+span{
+    color: red;
+}
+.span{
+    color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+/*footer div div p{
+    width: 280px;
+}*/
+.footer .footer2,
+.footer .footer1{
+    display: flex;
+}
+.footer .footer2 .div,
+.footer .footer1 .div{
+    padding:0 20px;
+}
+.footer .footer1 .div div{
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.footer .footer1 .div div a{
+    text-decoration: none;
+    color: gray;
+}
+.footer .footer2 .div p,
+.footer .footer1 .div p{
+    color: gray;
+}
+.footer .footer2 .div div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.footer .footer2 .div div a{
+    text-decoration: none;
+    margin-left: 8px;
+    color: gray;
+}
+footer div .p{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 8px;
+}
+footer div .p a{
+    text-decoration: none;
+    color: #5af1a4;
+}
+.footer .footer2 div h2,
+.footer .footer1 div h2{
+    color: #5af1a4;
+} 
